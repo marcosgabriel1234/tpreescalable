@@ -1,0 +1,66 @@
+body{
+    margin : 0;
+    background-color: #b17033;
+    background: linear-gradient(
+      25deg,
+      rgb(243, 108, 29),
+      rgb(243, 192, 96)
+    );
+    font-size: 1.5em;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+.rectangulo {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: red;
+    margin-bottom: 10px;
+    animation-name: MiAnimacion;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    
+}
+    
+@keyframes MiAnimacion {
+    from {
+        font-size:0%;
+        margin-left:100%;
+    }
+    
+    50% {
+        font-size:400%;
+    }
+    
+    to {
+        font-size:400%;
+        margin-left:0%;
+        width:100%;
+        border-radius: 15px;
+    }
+}
+.ModAside{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.9;
+}
+.ModAside__Img{
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 15px;
+    height: 350px;
+    width: 80%;
+}
+.ModFooter{
+    color: rgb(41, 35, 35);
+
+    display:inline-flexbox;
+}
+.ModImagen{
+    height: 5%;
+    width: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}

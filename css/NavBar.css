@@ -1,0 +1,21 @@
+.ModNav{
+    font-size: 32px;
+    background-color: rgb(245, 245, 245);
+    box-sizing: border-box;
+    text-align: center;
+}
+.ModNav a:hover{
+    background-color: rgb(100, 103, 104);
+}
+.FlexBox{
+    display: inline-block;
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+    
+}
+.ModNav__Active{
+    background-color: rgb(100, 103, 104);
+}

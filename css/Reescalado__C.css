@@ -1,0 +1,51 @@
+@media screen and (max-width: 540px){
+    body{
+        margin : 0;
+        background: linear-gradient(to bottom,rgb(170, 14, 14), rgb(32, 28, 29));
+        font-size: 16px;
+     }
+     .rectangulo {
+         width: 100%;
+         height: min-content ;
+         background-color: black;
+         color: red;
+         margin-bottom: 10px;
+         animation-name: MiAnimacion;
+         animation-duration: 3s;
+         animation-fill-mode: forwards;
+ 
+     }
+     
+     @keyframes MiAnimacion {
+         from {
+             font-size:0%;
+             margin-left:100%;
+         }
+ 
+         50% {
+             font-size:100%;
+         }
+ 
+         to {
+             font-size:200%;
+             margin-left:0%;
+             width:100%;
+             border-radius: 15px;
+         }
+     }
+     .ModAside{
+         display: inline-flex;
+         margin-top: 10px;
+         margin-bottom: 10px;
+         font-size: 1.9;
+     }
+     .ModAside__Img{
+         position: relative;
+         border-radius: 15px;
+ 
+     }
+     .ModFooter{
+         color: rgb(41, 35, 35);
+     }
+ 
+ }
